@@ -1,0 +1,23 @@
+#three{
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:35px;
+	left:27.5%;
+}
+.shirtStuff{
+	position:relative;
+	top:0px;
+	left:0px;
+	background-color: lightblue;
+	width:200px;
+	border: 1px solid black;
+}
+.pantsStuff{
+	position:absolute;
+	top:8px;
+	left:210px;
+	background-color: #7B68EE;
+	width:200px;
+	border: 1px solid black;
+}

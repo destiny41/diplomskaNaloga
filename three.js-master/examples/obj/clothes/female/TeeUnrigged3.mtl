@@ -1,0 +1,6 @@
+# Blender MTL File: 'For images.blend'
+# Material Count: 1
+
+newmtl tee
+
+map_Kd  Tee_refl.png

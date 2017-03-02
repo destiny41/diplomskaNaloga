@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cloth simulation</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<script type="text/javascript">
+		function change(number){
+			var okno = document.getElementById("frame");
+			var ime;
+			if(number == 0){
+				ime = "home.html";
+			}
+			if(number == 1){
+				ime="male.html";
+			}
+			if(number == 2){
+				ime="female.html";
+			}
+			okno.setAttribute("src",ime);
+		}
+	</script>
+</head>
+<body>		
+	<header>
+		<a href="#" class="myButton" onclick="change(0)">home</a><a href="#" class="myButton" onclick="change(1)">male</a><a href="#" class="myButton" onclick="change(2)">female</a>
+		<h2 class="header">CLOTH SIMULATION</h1>
+	<hr>
+	</header>
+	<div class="model-box">
+	<iframe id="frame" src="home.html" frameborder="0" allowfullscreen="" scrolling="no">
+	</iframe>
+	</div>
+</body>
+</html>
